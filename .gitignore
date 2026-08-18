@@ -1,0 +1,35 @@
+# Dependências
+node_modules/
+
+# Ambiente e credenciais (nunca versionar!)
+.env
+.env.local
+.env.*.local
+credentials.json
+token.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Perfil do navegador (Playwright/Chrome)
+chrome_bot_profile/
+chrome_user_data/
+profile_*/
+
+# Artefatos de desenvolvimento
+.vitest/
+coverage/
+playwright-report/
+test-results/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp

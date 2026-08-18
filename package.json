@@ -1,0 +1,22 @@
+{
+  "name": "bot-emiteai",
+  "version": "2.2.3",
+  "description": "Bot para emissão automática de cargas no portal EmiteAí",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --dev",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "googleapis": "^144.0.0",
+    "playwright": "^1.52.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.10"
+  }
+}

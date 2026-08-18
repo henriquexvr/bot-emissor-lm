@@ -317,38 +317,38 @@ bot_emissao_lm_2.2.3/
 │   ├── logger.js                         # Winston (arquivo JSON + console ANSI)
 │   ├── orchestrator.js                   # Orquestrador de fluxo no portal
 │   ├── relatorio.js                      # Relatório final de execução
-│   │
+│   ├──
 │   ├── browser/
 │   │   ├── manager.js                    # BrowserManager: Chromium launch + perfil persistente
 │   │   └── cloudflare.js                 # Detecção e espera de resolução Cloudflare
-│   │
+│   ├──
 │   ├── context/
 │   │   └── carga-context.js              # CargaContext: estado individual de cada carga
-│   │
+│   ├──
 │   ├── sheets/
 │   │   ├── auth.js                       # Script de autorização OAuth2
 │   │   └── client.js                     # SheetsRepository: API Google Sheets
-│   │
+│   ├──
 │   ├── pipeline/
 │   │   └── pipeline-orchestrator.js      # PipelineOrchestrator: escalonador Round Robin
-│   │
+│   ├──
 │   ├── workers/
 │   │   ├── tab-worker.js                 # TabWorker: processa blocos de cargas (F1/F2/F3)
 │   │   ├── worker-pool.js                # WorkerPool: gerencia ciclo de vida dos workers
 │   │   ├── shared-queue.js               # SharedQueueManager: filas FIFO thread-safe
 │   │   ├── recovery.js                   # RecoveryManager: recuperação de falhas
 │   │   └── health-checker.js             # HealthChecker: estabilidade da página
-│   │
+│   ├──
 │   ├── pages/
 │   │   ├── base.page.js                  # BasePage: utilidades comuns de navegação
 │   │   ├── consulta.page.js              # ConsultaPage: tela de consulta/filtro/tabela
 │   │   ├── form.page.js                  # FormPage: formulário de emissão
 │   │   └── popups.page.js                # PopupsPage: diálogos e confirmações
-│   │
+│   ├──
 │   ├── metrics/
 │   │   ├── collector.js                  # MetricsCollector: métricas por worker
 │   │   └── pace-controller.js            # PaceController: controle adaptativo de concorrência
-│   │
+│   ├──
 │   └── utils/
 │       └── retry.js                      # retryAsync (backoff) + aguardarCondicao (polling)
 │
@@ -626,6 +626,3 @@ O PaceController foi implementado para mitigar isso reduzindo automaticamente a 
 ## Licença
 
 Distribuído sob a licença **MIT** — veja [LICENSE](LICENSE).
-#   b o t - e m i s s o r - l m  
- #   b o t - e m i s s o r - l m  
- 

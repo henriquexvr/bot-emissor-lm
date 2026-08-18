@@ -627,4 +627,5 @@ O PaceController foi implementado para mitigar isso reduzindo automaticamente a 
 
 Distribuído sob a licença **MIT** — veja [LICENSE](LICENSE).
 #   b o t - e m i s s o r - l m  
+ #   b o t - e m i s s o r - l m  
  

@@ -315,7 +315,8 @@ O bot nasceu de um problema real do dia a dia (o processo manual descrito em [Co
 1. **Pesquisa:** antes de implementar, usei uma LLM para pesquisar as melhores formas de automatizar o processo.
 2. **Ferramenta:** como não tinha como pagar por uma assinatura, usei o **opencode** como agente de código.
 3. **Evolução versão a versão:** o agente foi sendo "treinado" com contexto a cada versão, com uma estratégia semelhante à que usei no CupHub: contexto por tarefa e implementação seguindo o plano definido.
-4. **Adequação ao ambiente:** com o tempo, refinei esse contexto para refletir o funcionamento do portal e o modelo de operação da empresa, o que melhorou a aderência das implementações ao cenário real.
+4. **Planejamento com Superpowers:** a cada versão, usei a skill **Superpowers** (sub-skills de *brainstorming* e de *perguntas*) para enriquecer o prompt e refinar o plano antes da implementação.
+5. **Adequação ao ambiente:** com o tempo, refinei esse contexto para refletir o funcionamento do portal e o modelo de operação da empresa, o que melhorou a aderência das implementações ao cenário real.
 
 ## Estrutura do Projeto
 

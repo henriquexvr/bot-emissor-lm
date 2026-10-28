@@ -37,6 +37,7 @@ O objetivo deste projeto é automatizar o ciclo completo — leitura da planilha
 - [Pipeline de 3 Filas (F1 → F2 → F3)](#pipeline-de-3-filas-f1--f2--f3)
 - [Algoritmos Utilizados](#algoritmos-utilizados)
 - [Decisões Técnicas](#decisões-técnicas)
+- [Uso de IA no Desenvolvimento](#uso-de-ia-no-desenvolvimento)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
@@ -306,6 +307,15 @@ Se degradação >= PACE_DEGRADATION_THRESHOLD_MS (90s) por 3× consecutivas:
 | **Configuração 100% via `.env`** | Nenhum dado sensível ou específico de ambiente no código-fonte |
 
 ---
+
+## Uso de IA no Desenvolvimento
+
+O bot nasceu de um problema real do dia a dia (o processo manual descrito em [Contexto do Problema](#contexto-do-problema)) e foi construído do zero com apoio de LLMs.
+
+1. **Pesquisa:** antes de implementar, usei uma LLM para pesquisar as melhores formas de automatizar o processo.
+2. **Ferramenta:** como não tinha como pagar por uma assinatura, usei o **opencode** como agente de código.
+3. **Evolução versão a versão:** o agente foi sendo "treinado" com contexto a cada versão, com uma estratégia semelhante à que usei no CupHub: contexto por tarefa e implementação seguindo o plano definido.
+4. **Adequação ao ambiente:** com o tempo, refinei esse contexto para refletir o funcionamento do portal e o modelo de operação da empresa, o que melhorou a aderência das implementações ao cenário real.
 
 ## Estrutura do Projeto
 
